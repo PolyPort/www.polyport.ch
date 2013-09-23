@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>PolyPort</title>
+    <title>PolyPort GmbH - Pioneers in crowd-sourced logistics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PolyPort develops transport solutions for tomorrow. Learn how to send other people shopping for you or how to get something delivered from A to B using crowdsourced transport capacities...">
-    <meta name="keywords" content="About, Wer, Wo, B&uuml;ro, HQ, Sitz, Viadukt, HUB Zurich, Stella Schieffer, Shoaib Burq, Philipp Oberender, Team, Paket, Versand, Mitschicken, Mitnehmen, Transport, Lieferung, Kurier, crowd, Kartoffeltaxi, Zurich, Marktplatz, Logistik, Freddy, Christandl, Mobilitat, Nachhaltigkeit, green, Pilot Projekt, Einsiedeln, Z&uuml;rich, Bern, Kartoffeln, peer-to-peer, P2P, shipping, mobility, delivery, moving, sustainable, long tail, transport, cheap, parcel, package, fast, reliable, GPS, tracking " />
-    <meta name="author" content="PolyPort">
+    <meta name="description" content="We are pioneers in bringing the sharing economy to the logistics industry. In different projects we crowd-source private transport capacities to enable sustainable, flexible and inexpensive B2C or C2C deliveries and transports.">
+    <meta name="keywords" content="PolyPort, BringBee, Kartoffeltaxi, Startup, Zürich, Schweiz, ETH, ETHZ, Spin, Off, WWF, Climate KIC, www.bringbee.ch, kartoffeltaxi.ch, polyport.ch, Mitnahmegelegenheit, City Logistics, City-Logistik, Mitfahrgelegenheit, Pioneer, Crowdsouring, crowd-sourcing, P2P, Peer, Logistics, Logistik, Kollaborativ, Sharing Economy" />
+    <meta name="author" content="PolyPort GmbH">
 
     <!-- Le styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
     <![endif]-->
 
     <!-- Le fav and touch icons -->
@@ -27,264 +27,219 @@
 
   <body>
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="index.html"> PolyPort </a> <!--  <img src= "img/polyport30px.png"> -->
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="contact.html">Kontakt</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="jobs.html">Jobs</a></li>
-            </ul>
-         <p class="pull-right"><a target="_blank" href="http://polyport.us2.list-manage.com/subscribe?u=59b76fd65542c27cc1f64544a&id=8f1f5ac066"><button class="btn btn-success" type="submit">Newsletter</button></a></p>
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
 
-         </div><!--/.nav-collapse -->
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">PolyPort</a>
+            </div>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item">
+          <img src="img/slide00a.png" alt="70% of all transport capacities remain unused. Source: Gerrit Schmit_pixelio.de">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>70% of all transport capacities remain unused.</h1>
+              <p class="lead"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide01a.png" alt="Traffic accounts for ca. 35% of all CO2 emissions. Source: Petra Bork_pixelio.de">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Traffic accounts for approx. 35% of all CO2 emissions.</h1>
+              <p class="lead">For a sustainable future, its critical to improve the efficiency of our existing transportation systems.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item active">
+          <img src="img/slide02.jpg" alt="You travel 19'000+ km every year.  Source: birgitH_pixelio.de">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>You move 19'000+ km every year. </h1>
+              <p class="lead">Why don't you take a delivery along & make some money on your way?</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <div class="row" id="about">
+        <div class="span6">
+          <h2>Pioneers in crowd-sourced logistics</h2>
+          <p>70% of all transport capacities remain unused on average. With our streets filling up, traffic jams paralyzing our infrastructure on a daily basis and challenging supply chains and our economy, it is time to act. PolyPort wants to utilize unused, private transport capacities to enable sustainable transports and offer an inexpensive last mile delivery solution. </p>
+          <p>Within two innovative city logistics projects, we bring the sharing economy to transportation <a  href="#bringbee">"BringBee"</a> & the <a  href="#kartoffeltaxi">"Kartoffeltaxi"</a>.</p>
+
+
+        </div>
+        <div class="span6">
+           <img class="span6" src="img/polyport2.png">
+           <!--<img class="span6" src="PolyPort_files/paper-shopping-bag.jpg">-->
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </div>
+
+
+      <!-- START THE FEATURETTES -->
+      <div class="container marketing" id="products">
+
+        <div class="featurette" id="bringbee">
+          <img class="featurette-image pull-right" src="img/bringbee.png">
+          <h2 class="featurette-heading">BringBee. <span class="muted">Crowdsourcing your shopping run.</span></h2>
+          <p class="lead">Why bother going shopping yourself, if thousands people are on the move every single day? Simply write your shopping list with BringBee & get your shopping bought and delivered by a BringBee nearby for a little reward. </br> BringBee verifies all members, handles secure payments and offers support and a transport insurance.</p>
+            <!-- <p><a href="http://facebook.com/BringBee" target="_blank">Like us </a> <a href="http://twitter.com/BringBee_ch" target="_blank">  Follow us</a></p>-->
+
+          <p><a class="btn btn-large btn-primary" href="http://bringbee.ch" target="_blank">Read more & join the community!</a></p>
+
+
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette" id="kartoffeltaxi">
+          <img class="featurette-image pull-left" src="img/potatoe_kingedward2.jpg">
+          <h2 class="featurette-heading">Kartoffeltaxi. <span class="muted">Sustainable deliveries of regional bio-products. </span></h2>
+          <p class="lead">It's not always easy to buy fresh, local and regional products. With the <a href="http://kartoffeltaxi.ch" target="_blank">"Kartoffeltaxi"</a> commuters bring the fresh products directly from the producer to your doorstep.</p>
+          <p><a class="btn btn-large btn-primary" href="http://kartoffeltaxi.ch" target="_blank">Learn more & enjoy tasty potatoes!</a></p>
+        </div>
+
+
+      </div>
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+      <!-- /PARTNERS -->
+
+      <div class="container" id="partner">
+
+      <div class="row">
+        <div class="span2">
+         <h3>Our Partners</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span2">
+         <img  src="img/ethspinoff.png" alt="ETH Spinoff" href="http://www.vpf.ethz.ch/transfer/firmgruend/" target="_blank">
+        </div>
+        <div class="span2">
+         <img  src="img/sbb.png" alt="SBB Startup" href="http://sbb.ch/startup" target="_blank">
+        </div>
+        <div class="span2">
+         <img  src="img/eit.png" alt="Climate-KIC" href="http://www.climate-kic.org/national-centres/zurich-switzerland/" target="_blank">
+        </div>
+        <div class="span2">
+         <img src="img/wwf.png" alt="WWF Switzerland" href="http://wwf.ch/de/" target="_blank">
+        </div>
+        <div class="span2">
+         <img src="img/axa.jpg" alt="AXA Winterthur" href="https://www.axa-winterthur.ch/de/Seiten/default.aspx?gclid=CKXBqt3-27kCFUeN3god238APw" target="_blank">
+        </div>
+
+
+      </div>
+
+      <!-- CONTACT -->
+
+      <div class="container" id="contact">
+      <hr class="featurette-divider">
+
+      <div class="row" id="contact">
+        <div class="span4">
+          <h3>Contact</h3>
+          <p>
+            <b>PolyPort GmbH</b> </br>
+            c/o Institut für Verkehrsplanung (IVT)</br>
+            Wolfgang-Pauli-Strasse 15</br>
+            8093 Zürich</br>
+            Switzerland</br>
+          </p>
+          <p>
+            <b>Email:</b> <a href="mailto:team@polyport.ch">team@polyport.ch</a>
+          </p>
+        </div>
+        <div class="span4">
+
+          <h3>Company</h3>
+          <p><b>Management:</b> Stella Schieffer, Philipp Oberender, Shoaib Burq, Dr. Kashif Rasul</p>
+          <p><b>UID:</b> CHE-355.286.422</p>
+          <p><b>Handelsregister:</b> CH-020.4.046.675-4 </p>
+        </div>
+        <div class="span4">
+          <h3>Stay in touch</h3>
+          <p>
+            Like: <a href="http://facebook.com/PolyPort" target="_blank">www.facebook.com/PolyPort</a></br>
+            Follow: <a href="http://twitter.com/polyport_ch" target="_blank">@polyport_ch </a> </br>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="span12">
+          <p style="text-align:center;"><b>© 2012-2013 PolyPort GmbH </b></p>
         </div>
       </div>
     </div>
 
-    <div class="container">
 
-      <!-- tag -->
-      <div class="row" style="margin-top:20px">
-        <div class="span12">
-          <h1>70% aller Transportkapazitäten in Autos, Bahnen und Bussen bleiben ungenutzt.</h1>
-          <h2>PolyPort macht den Platz nutzbar für deine Lieferungen und Transporte.</h2>
-        </div>
-     </div>
-     
-      <!-- Our work -->
-           <div class="row" id="projects" style="margin-top:20px">
-        <div class="span12">
-          <h2 align="center">Unsere Produkte</h2>
-          <!--<p>PolyPort entwickelt kollaborative Marktplätze, auf denen Du deinen freien Platz einfach für Lieferungen teilen und damit Geld verdienen kannst. Andere können deinen Platz finden und buchen. </br>
-            So ermöglichen wir bequeme, umweltfreundliche & regionale Lieferungen.</p>  -->  
-        </div>
-        </div>
-        <div class="row" style="margin-top:20px">
-          <div class="span6">
-            <h3>Das Kartoffeltaxi</h3>
-            <h4>Eine klimaneutrale Transportkette für frische, lokale Bioprodukte</h4>
-          </div>
-          
-          <div class="span6">
-            <h3>BringBee</h3>
-            <h4>Der Mitbringservice für die kleineren IKEA Einkäufe</h4>
-          </div>      
-        </div>
-        
-        <div class="row" style="margin-top:20px">
-          <div class="span3">       
-            <a href="http://www.kartoffeltaxi.ch" ><img src="img/index/shipping.png" width="100%" alt="Peer to Peer Shipping "></a>
-          </div>
-           <div class="span3">
-            <p>Jeden Herbst gibt es frische Bio-Bergkartoffeln. Damit diese nicht nur grün produziert, sondern auch grün auf den Küchentisch kommen, gibt es das Kartoffeltaxi. Pendler nehmen die Produkte auf dem Weg zur Arbeit mit zu Kunden aus dem Kreis Zürich.</p>
-            <p><a class="btn btn-success" href="http://www.kartoffeltaxi.ch">Mehr</a></p>
-           </div>
-          
-          <div class="span3">       
-            <a href="http://bringbee.ch" ><img src="img/index/shopping.png" width="100%" alt="Peer to Peer Shopping "></a>
-          </div>
-           <div class="span3">
-            <p>Keine Zeit  oder kein Auto um selbst bei IKEA einzukaufen? Jetzt kannst Du online deine Einkaufsliste schreiben und Deine Einkäufe von jemandem aus deiner Nähe mitbringen lassen. So sparst du eine Einkaufsfahrt und hilfst Verkehr in deiner Nachbarschaft zu reduzieren. </br> <strong> Jetzt in geschlossener Testphase.</strong></p> 
-             <p><a class="btn btn-success" href="http://www.bringbee.ch">Start in Zürich Ende Januar 2013</a></p>
-           </div>
-                  
-        </div>
-            
-        <!-- What's wrong -->
-           <div class="row" id="challengesToday" style="margin-top:50px">
-        <div class="span12">
-          <h1>Herausforderungen im Transport heute</h1>
-        </div>
-        </div>
-        
-        <div class="row" style="margin-top:20px">
-          <div class="span3">
-            <h2>Kosten</h2>        
-          </div>
-          <div class="span3">
-            <h2>Umwelt</h2>        
-           </div>
-          <div class="span3">
-            <h2>Lebensqualität</h2>       
-          </div>
-          <div class="span3">
-            <h2>Effizienz</h2>        
-          </div>
-        </div>
-        
-        <div class="row" style="margin-top:20px">
-          <div class="span1">       
-             <img src="img/index/costs.gif" width="100%" alt="Kosten">      
-          </div>
-          <div class="span2">       
-             <p>Benzinpreise sind in den vergangenen Jahren ca. 30% gestiegen. Somit steigt der Preisdruck für Logistikdienstleister stetig.</p>       
-          </div>
-          
-          <div class="span1">       
-             <img src="img/index/environment.gif" width="100%" alt="Kosten">      
-          </div>
-          <div class="span2">
-              <p>Verkehr macht etwa 35% aller Emissionen aus. Effizienter Transport & Mobilität sind somit zukunftsweisend.</p>       
-           </div>
-           
-           <div class="span1">        
-             <img src="img/index/lifequality.gif" width="100%" alt="Kosten">      
-          </div>
-          <div class="span2">
-            <p>Transport heisst auch Stau, Lärm und Emissionen. Transportbedarf & Lebensqualität sollten in gesundem Verhältnis bleiben.</p>
-          </div>
-          
-          <div class="span1">       
-             <img src="img/index/efficiency.gif" width="100%" alt="Kosten">       
-          </div>
-          <div class="span2">
-            <p>70% aller Transportkapazitäten bleiben heute ungenutzt. </p>
-          </div>
-        </div>
-        
-        <!-- END What's wrong -->
-     
-     <!-- Get Involved -->
-      <div class="row" id="GetInvolved" style="margin-top:50px">
-      <h1>Get involved</h1>
-     
-        <div class="row" style="margin-top:20px">
-         <div class="span4" >
-           <img src="img/index/bulb2.jpg" width="100%" title="Bernd Bast / pixelio.de" alt="Idea">
-            <h1 style="margin-top:-330px; margin-left:30px; color: #A40014; font-weight:bold">Du hast eine Idee</h1></br> 
-            <h2 style="color: #FFFFFF; margin-left:30px; margin-right:60px">Idee für ein spannendes Projekt? </br> <a href="mailto:team@polyport.ch">Get in touch</a></h2>
-         </div>
-         
-         <div class="span4">
-           <img src="img/index/fan2.jpg" width="100%" title="bluefeeling / pixelio.de" alt="Fan">
-            <h1 style="margin-top:-330px; margin-left:30px; color: #A40014; font-weight:bold">Be a Fan</h1></br> 
-            <h2 style="margin-left:30px; margin-right:60px">Dir gefällt, was wir machen?
-            <p style="margin-top:30px"> Bleib informiert...  
-               <a href="http://www.facebook.com/PolyPort" target="_blank">
-                    <img width="50" src="img/icons/fb_icon.png" alt="Facebook">  </a>
-               <a href="http://twitter.com/#!/polyport_team" target="_blank">
-                    <img width="50" src="img/icons/tw_icon.png" alt="Twitter">  </a>
-            
-            </p>
-            
-         
-         </div>
-         
-         <div class="span4">
-           <img src="img/index/money2.jpg" width="100%" title="pauline / pixelio.de"  alt="Fund us">
-            <h1 style="margin-top:-330px; margin-left:30px; color: #A40014; font-weight:bold">Sponsor us</h1>
-            <h3 style="margin-top:170px; margin-left:30px; margin-right:200px">Unterstütze </br> uns mit </br>einer Spende. </h3>
-            
-         </div>
-        </div>
-     </div>
-   
-      <!-- Supporters-->
-      <div class="row" id="Supporters" style="margin-top:100px">
-      <h2>Unterstützung</h2>
-        <div class="row" style="margin-top:50px">
-         <div class="span3">
-           <a href="http://www.climate-kic.org/" ><img src="img/index/supporters/support_eit.jpg" width="100%" alt="EIT"></a>
-         </div>
-         
-         <div class="span3">
-           <a href="http://hubzurich.org/" ><img src="img/index/supporters/support_hub.jpg" width="100%" alt="HUB Zurich"></a>
-         </div>
-         
-         <div class="span3">
-           <a href="http://ikea.ch/" ><img src="img/index/supporters/support_ikea.jpg" width="100%" alt="IKEA "></a>
-         </div>
-         
-         <div class="span3">
-           <a href="http://wwf.ch/" ><img src="img/index/supporters/support_wwf.png" width="100%" alt="WWF"></a>
-         </div>
-        </div>
-     </div>
-     
-     <!-- Awards -->
-      <div class="row" id="Awards" style="margin-top:30px">
-      <h2>Auszeichnungen</h2>
-        <div class="row" style="margin-top:20px">
-         <div class="span3">
-           <a href="https://www.axa-winterthur.ch/De/privatpersonen/kampagnen/Seiten/innovation-award.aspx" ><img src="img/index/awards/axa-innovation-award.jpg" width="100%" alt="Fund us"></a>
-         </div>
-         <div class="span3">
-           <a href="http://hubzurich.org" ><img src="img/index/awards/prize_hub.jpg" width="100%" alt="Fund us"></a>         
-         </div>
-         <div class="span3">
-           <a href="http://www.inno-swiss.com/post/view/6986/" ><img src="img/index/awards/prize_suw.jpg" width="100%" alt="Fund us"></a>         
-         </div>
-         <div class="span3">
-           <a href="http://www.venturelab.ch/index.cfm?CFID=103767225&CFTOKEN=59150497&page=125807" ><img src="img/index/awards/prize_vl.jpg" width="100%" alt="Fund us"></a>
-         </div>
-        </div>
-     </div>
-      
-      <!-- What's wrong  <p><a class="btn" href="#">View details &raquo;</a></p>-->
-      <hr>
+      <!-- FOOTER -->
+      <div class="container marketing">
 
-      <!-- Footer -->
-      <footer>
+        <footer>
+          <div class="row">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+          </div>
+        </footer>
+      </div>
 
-         <div id="contact">
-         <br>
-                <div class="row">
-                <!-- Column 1 -->
-                       <div class="span4">
-                          <p>
-                          <a href="index.html"> Home </a> <br>
-                          <a href="contact.html"> Kontakt </a> <br>
-                    <a href="team.html"> Team</a> <br>
-                    <a href="jobs.html"> Jobs </a> <br>
-                          </p>
-                      </div>
-
-                <!-- Column 2 Sign up-->
-
-                     <div class="span4">
-                         <p> <strong> Mach mit! </strong> </p>
-
-                         <p><a target="_blank" href="http://eepurl.com/hrlg2" class="btn btn-success">Join now!</a> </p>
-                      </div>
-
-                <!-- Column 4 Social Media-->
-                      <div class="span4">
-                         <p> <strong> Folge uns </strong> </p>
-
-                         <p>
-                                 <a href="http://www.facebook.com/PolyPort" target="_blank">
-                                 <img width="50" src="img/icons/fb_icon.png" alt="FB">  </a>
-
-                                 <a href="https://twitter.com/PolyPort_ch" target="_blank">
-                                 <img width="50" src="img/icons/tw_icon.png" alt="TW">  </a>
-
-                                 <a href="http://polyport.wordpress.com/" target="_blank">
-                                 <img width="50" src="img/icons/wp_icon.png" alt="WP">  </a>
-
-                         </p>
-                      </div>
-                </div>
-         </div>  <!-- END contact -->
-
-        <p align="center">PolyPort &copy; 2012</p>
-      </footer>
-
-    </div> <!-- /container -->
+    </div><!-- /.container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/jquery-2.0.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
